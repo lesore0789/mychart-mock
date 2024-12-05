@@ -9,34 +9,90 @@
   <body>
     <div class="top-nav">
       <div class="logo">
-        <img src="images/logo.png" alt="" />
+        <a href="">
+          <img src="images/MyChart-NCH-Logo.png" alt="" />
+        </a>
       </div>
       <div class="logout-icons">
-        <img src="images/globe.png" alt="" />
-        <img src="images/log-out.png" alt="" /> logout
+        <div class="globe">
+          <a href="">
+            <img src="images/globe.png" alt="" />
+          </a>
+        </div>
+        <div class="logout">
+          <a href="">
+            <img src="images/log-out.png" alt="" />
+          </a>
+          <a href="">
+            <p>logout</p>
+          </a>
+        </div>
       </div>
     </div>
     <nav>
       <div class="left">
         <ul>
-          <li>Menu</li>
-          <li>Visits</li>
-          <li>Messages</li>
-          <li>Test Results</li>
-          <li>Medications</li>
+          <li><a href="">
+
+            <img src="images/list.png" alt="" class="nav-icons" /> Menu</li>
+          </a>
+          <li>
+            <a href="">
+
+              <img src="images/calendar.png" alt="" class="nav-icons" /> Visits
+            </a>
+          </li>
+          <li>
+            <a href="">
+
+              <img src="images/email.png" alt="" class="nav-icons" /> Messages
+            </a>
+          </li>
+          <li>
+            <a href="">
+
+              <img src="images/beaker.png" alt="" class="nav-icons" /> Test
+            </a>
+            Results
+          </li>
+          <li>
+            <a href="">
+              <img
+                src="images/medicine.png"
+                alt=""
+                class="nav-icons"
+              />Medications
+            </a>
+          </li>
         </ul>
       </div>
       <div class="right">
         <div class="button">
-          <div class="circle">C</div>
-          <div class="name">Camille</div>
+          <a href="">
+            <div class="circle">
+              <p>C</p>
+            </div>
+          </a>
+          <a href="">
+            <div class="name">Camille</div>
+          </a>
         </div>
       </div>
     </nav>
     <main>
       <div class="left-main">
         <h1>Test Results</h1>
-        <input type="search" name="searchbox" id="searchbox" />
+        <div class="search">
+          <input
+            type="search"
+            name="searchbox"
+            id="searchbox"
+            placeholder="Search this list"
+          />
+          <a href="">
+            <img src="images/search.png" alt="" />
+          </a>
+        </div>
         <table>
           <tr>
             <th>Test</th>
@@ -45,27 +101,51 @@
             <th>Download</th>
           </tr>
           <tr>
-            <td>CBC With Differential/Platelet</td>
+            <td><img class="table-beaker" src="images/beaker.png" alt="">CBC With Differential/Platelet</td>
             <td>Albert Anders, MD</td>
             <td>December 2, 2024</td>
-            <td>Download</td>
+            <td>
+              <a
+                href="images/Test results.pdf"
+                download
+                role="button"
+                class="download"
+                >Download <img src="images/down.png" class="down-icon" alt=""
+              /></a>
+            </td>
           </tr>
           <tr>
-            <td>TSH+Free T4</td>
+            <td><img class="table-beaker" src="images/beaker.png" alt="">TSH+Free T4</td>
             <td>Albert Anders, MD</td>
             <td>December 2, 2024</td>
-            <td>Download</td>
+            <td>
+              <a
+                href="images/Test results.pdf"
+                download
+                role="button"
+                class="download"
+                >Download <img src="images/down.png" class="down-icon" alt=""
+              /></a>
+            </td>
           </tr>
           <tr>
-            <td>Glucose</td>
+            <td><img class="table-beaker" src="images/beaker.png" alt="">Glucose</td>
             <td>Albert Anders, MD</td>
             <td>December 2, 2024</td>
-            <td>Download</td>
+            <td>
+              <a
+                href="images/Test results.pdf"
+                download
+                role="button"
+                class="download"
+                >Download <img src="images/down.png" class="down-icon" alt=""
+              /></a>
+            </td>
           </tr>
         </table>
         <div class="message">
           <p>There are no more test results available</p>
-          <button>Back to home page</button>
+          <button>Back to the home page</button>
         </div>
       </div>
       <div class="right-main">

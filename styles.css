@@ -9,3 +9,154 @@ textarea,
 select {
   font: inherit;
 }
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.top-nav {
+  background-color: #3a6eaf;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo img {
+  height: 50px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+.logout-icons {
+  padding-right: 20px;
+  display: flex;
+}
+
+.logout-icons img {
+  height: 20px;
+}
+
+.logout {
+  display: flex;
+  padding: 2px;
+}
+
+.logout p {
+  font-size: 14px;
+}
+
+.globe {
+  padding-right: 20px;
+}
+
+.globe img, .logout img, .logout {
+  background-color: azure;
+  border-radius: 10px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.left ul {
+  list-style: none;
+  display: flex;
+  gap: 17px;
+}
+
+.button {
+  display: flex;
+  gap: 5px;
+  padding-right: 10px;
+  align-items: center;
+}
+
+.button .circle {
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: #4488d5;
+  color: white;
+}
+
+.circle p {
+  padding-left: 8px;
+  padding-top: 5px;
+}
+
+.nav-icons {
+  height: 20px;
+
+}
+
+main {
+  background-color: rgb(45, 45, 143);
+  display: flex;
+}
+
+main .left-main {
+  background-color: #dfe2e5;
+  width: 190%;
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+main .right-main {
+  background-color: #dae2e7;
+  padding-top: 50px;
+  width: 500px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+}
+
+.search img {
+  height: 20px;
+}
+
+.search {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+table {
+  box-shadow: 1px 1px 1px #999;
+}
+
+table td {
+  background-color: white;
+  padding: 15px;
+}
+
+.table-beaker {
+  height: 20px;
+}
+
+.down-icon {
+  height: 15px;
+}
+
+.left-main .message {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.left-main .message p {
+  color: gray;
+  font-size: 12px;
+  padding-bottom: 30px;
+}
+
+.left-main .message button {
+  color: gray;
+  font-size: 14px;
+  padding: 5px;
+}
